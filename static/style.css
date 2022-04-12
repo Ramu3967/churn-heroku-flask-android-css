@@ -60,7 +60,7 @@ input[type="email"]
 	background: #FAF6D9;
 }
 input:focus{
-	background-color: white;
+	background-color: #8bb0e1;
 }
 p
 {
@@ -88,6 +88,14 @@ input[type="integer"]
 	border: 2px solid steelblue;
 	background: #FAF6D9;
 }
+
+input, textarea {
+
+  background-color : #191a1a;
+	color: white;
+
+}
+
 body {
     background-image: url("./robo.jpg") ;
 
