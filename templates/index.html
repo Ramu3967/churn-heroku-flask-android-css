@@ -6,9 +6,10 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'style.css') }}">
 </head>
 <body>
+<h1> Employee Churn Prediction</h1>
 
 <form action="{{ url_for('predict') }}" method="post">
-    <br><br>
+    <br>
     <label for="CreditScore">Credit Score : </label>
     <input type="number" id="CreditScore" required="required" name="CreditScore" placeholder="CreditScore" step="0.000001"><br><br>
 
